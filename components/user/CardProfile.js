@@ -25,6 +25,7 @@ export default function CardProfile(props) {
               ? user?.image[0]?.url
               : '/profile.jpeg'
           }
+          alt=""
           width="100"
           height="100"
           className="object-cover rounded-full"
