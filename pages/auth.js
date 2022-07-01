@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import Login from '../components/auth/Login';
 import Register from '../components/auth/Register';
 
-export default function auth() {
+export default function Auth() {
   const router = useRouter();
   const [isRegister, setIsRegister] = useState(false);
 
